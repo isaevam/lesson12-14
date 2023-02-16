@@ -14,6 +14,7 @@ function quadraticEquation() {
     } else {
       if (d === 0) {
         x1 = (-1 * b) / (2 * a);
+        alert('x=' + x1);
       } else {
         alert("Корней нет");
       }
